@@ -170,6 +170,8 @@
       </div>
     </section>
 
+
+
     <section class="section__container gallery__container">
       <h2 class="section__header">~ GALLERY ~</h2>
       <div class="gallery__grid">
@@ -267,5 +269,21 @@
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="main.js"></script>
+    <script>
+      // Initialize Swiper after the DOM is fully loaded
+      document.addEventListener('DOMContentLoaded', function () {
+        var swiper = new Swiper('.swiper', {
+          loop: true, // Enable continuous loop mode
+          autoplay: {
+            delay: 3000, // 3 seconds delay between slides
+            disableOnInteraction: false, // Continue autoplay after user interactions
+          },
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true, // Allow pagination bullets to be clickable
+          },
+        });
+      });
+    </script>
   </body>
 </html>
