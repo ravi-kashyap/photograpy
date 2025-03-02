@@ -231,7 +231,7 @@ const galleryImages = ['assets/images/brithday/1.JPG',
 ];
 
 const weddingImages = [
-  'assets/images/wedding/1.jpg',
+  'assets/images/wedding/111.jpg',
   'assets/images/wedding/2.jpg',
   'assets/images/wedding/3.jpg',
   'assets/images/wedding/4.jpg',
