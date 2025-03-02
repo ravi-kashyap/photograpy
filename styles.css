@@ -188,6 +188,13 @@ nav {
   content: "Engagement";
 }
 
+.portfolio__card:nth-child(4)::after {
+  content: "Wedding";
+}
+.portfolio__card:nth-child(5)::after {
+  content: "Haldi";
+}
+
 .portfolio__content {
   position: absolute;
   top: 0;
