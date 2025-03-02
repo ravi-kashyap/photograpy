@@ -247,6 +247,7 @@ const weddingImages = [
   'assets/images/wedding/14.jpg',
   'assets/images/wedding/15.jpg',
   'assets/images/wedding/16.jpg',
+  'assets/images/wedding/41.jpg',
 ]
 
 const haliImages = [
